@@ -46,6 +46,8 @@ CHIP_MIN_VER = {
     0x6021: "13.1",     # T6021, M2 Max
     0x6022: "13.4",     # T6022, M2 Ultra
     0x6030: "14.1",     # T6030, M3 Pro
+    0x6031: "14.1",     # T6031, M3 Max
+    0x6034: "14.1",     # T6034, M3 Max
 }
 
 DEVICES = {
@@ -72,7 +74,12 @@ DEVICES = {
     "j475cap":  Device("13.4", False),  # Mac Studio (M2 Max, 2023)
     "j475dap":  Device("13.4", False),  # Mac Studio (M2 Ultra, 2023)
     "j180dap":  Device("13.4", True),  # Mac Pro (M2 Ultra, 2023)
+    "j514sap":  Device("14.1", True),  # MacBook Pro (16-inch, M3 Pro, 2023)
     "j516sap":  Device("14.1", True),  # MacBook Pro (16-inch, M3 Pro, 2023)
+    "j514cap":  Device("14.1", True),  # MacBook Pro (16-inch, M3 Max, 2023)
+    "j516cap":  Device("14.1", True),  # MacBook Pro (16-inch, M3 Max, 2023)
+    "j514map":  Device("14.1", True),  # MacBook Pro (16-inch, M3 Max, 2023)
+    "j516map":  Device("14.1", True),  # MacBook Pro (16-inch, M3 Max, 2023)
 }
 
 IPSW_VERSIONS = [
