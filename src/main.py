@@ -97,6 +97,13 @@ IPSW_VERSIONS = [
          False,
          None,
          "https://updates.cdn-apple.com/2023SummerFCS/fullrestores/032-69606/D3E05CDF-E105-434C-A4A1-4E3DC7668DD0/UniversalMac_13.5_22G74_Restore.ipsw"),
+    IPSW("14.1",
+         "14.1", # FIXME
+         "iBoot-8422.141.2", # FIXME
+         "22.7.74.0.0,0", # FIXME
+         True,
+         None,
+         "https://updates.cdn-apple.com/2023FallFCS/fullrestores/042-41691/76E2D10A-00AA-4536-97D6-D55885468755/UniversalMac_14.1_23B2077_Restore.ipsw"),
     IPSW("14.6.1",
          "13.0", # FIXME
          "iBoot-8422.141.2", # FIXME
